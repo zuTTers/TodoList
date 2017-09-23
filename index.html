@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>To-Do</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	
+</head>
+<body id="page-top">
+	<div class="col-sm-6 mx-auto">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome to my notebook</a>            
+        </div>
+    </nav>
+    <header class="bg-primary text-white">
+        <div class="container text-center">
+            <h1>To Do List</h1>            
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">   
+                    
+                    <form class="form-horizontal">
+                        <div class="form-group">                          
+                            <div class="col-sm-12">
+                                <input class="form-control" id="txtTask" type="text" placeholder="New task">
+                            </div>
+                        </div>
+                        <div class="form-group">                          
+                            <div class="col-sm-12">
+                                <input id="btnAdd" type="button" value="Add Task" class="form-control btn-success" style="margin-bottom:5px;">
+                                <input id="btnAll" type="button" value="All Tasks" class="form-control btn-primary" style="margin-bottom:5px;">
+                                <input id="btnActive" type="button" value="Active Tasks" class="form-control btn-primary" style="margin-bottom:5px;">
+                                <input id="btnComplated" type="button" value="Complated Tasks" class="form-control btn-primary" style="margin-bottom:5px;">
+                                <input id="btnAllDelete" type="button" value="Clean the Complated" class="form-control btn-danger">								
+                            </div>
+                        </div>                     
+                    </form>
+                                                        
+                </div>
+                <div class="col-lg-6 " style="max-height:300px;overflow-y:scroll;">
+                    <ul id="lstTasks" class="list-unstyled">					
+						<!--Loading list into here-->
+                    </ul>
+                </div>
+                </div>				
+        </div>
+    </section>       
+    
+    <!-- Footer -->
+    <footer class="py-2 bg-dark">
+        <div class="footer">
+            <p class="m-0 text-center text-white">Copyright &copy; 2017 zuTTers</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+	</div>
+</body>
+</html>
+
